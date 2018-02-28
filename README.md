@@ -1,6 +1,19 @@
 # Lepton
 
-## How to setup
+## Setting Up Flir Lepton
+
+- Connect Flir Lepton to Raspberry Pi headers
+
+![alt text](https://cdn.sparkfun.com/assets/learn_tutorials/3/5/9/RPi-FLIR-Diag-FIXED.png) </br>
+\* CS should be across from CLK, not across and down one pin
+
+- Enable SPI and I2C interfaces
+
+```
+sudo raspi-config
+```
+
+## Setting Up Code
 
 - Install pylepton
 
